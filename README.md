@@ -111,24 +111,6 @@ where:
 Linear regression is applied to ln(C/C₀) versus time using 
 scipy.stats.linregress to estimate k and assess goodness of fit (R²).
 
----
-
-## Repository Structure
-
-
-gcfid-hydrocarbon-degradation/
-│
-├── gcfid_degradation_kinetics.ipynb
-├── kinetic_summary.csv
-├── requirements.txt
-│
-├── figures/
-│ ├── degradation_curves.png
-│ └── first_order_kinetics.png
-│
-└── data/
-└── synthetic_gulumbe_data.csv
-
 
 ---
 
@@ -140,7 +122,7 @@ Gulumbe et al. (2025) and is not raw GC-FID instrument output.
 This project demonstrates:
 - Data reconstruction from peer-reviewed literature  
 - Reproducible analysis pipelines  
-- Kinetic modelling under realistic experimental constraints  
+- Kinetic modeling under realistic experimental constraints  
 
 The pipeline is designed to accept real GC-FID data without structural changes.
 
@@ -167,7 +149,7 @@ analytical chemistry, and environmental monitoring roles.
 Gulumbe, B.H., Cravo-Laureau, C. & Duran, R. (2025). Integrative genomic 
 and transcriptomic analyses reveal marine *Actinomycetota* adaptations for 
 hydrocarbon degradation. Environmental Technology & Innovation, 40, 104361.  
-https://doi.org/10.1016/j.etinno.2025.104361
+[https://doi.org/10.1016/j.etinno.2025.104361](https://doi.org/10.1016/j.eti.2025.104361)
 
 ---
 
